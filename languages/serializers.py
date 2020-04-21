@@ -18,3 +18,9 @@ class ProgrammerSerializers(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Programmer
         fields = ['url', 'id', 'name', 'languages']
+
+
+class ProgrammerModelSerializers(serializers.ModelSerializer):
+    class Meta:
+        model = Programmer
+        fields = ['url', 'id', 'name', 'languages']
