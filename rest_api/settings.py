@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
 
     # my own app
-    'languages'
+    'languages',
+    'todo_list'
 ]
 
 MIDDLEWARE = [
